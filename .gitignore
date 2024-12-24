@@ -1,0 +1,54 @@
+# Django-specific files
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Python virtual environment
+venv/
+env/
+.env
+
+# Static files
+staticfiles/
+
+# Compiled Python files
+*.py[cod]
+
+# Development tools
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Dependency directories
+node_modules/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Test databases
+*.sqlite3-journal
+
+# Translations
+*.mo
+
+# Backup files
+*.bak
+
+# Secret keys
+*.secret
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Django migration files (optional, depending on your workflow)
+# */migrations/*.py
+# !*/migrations/__init__.py
